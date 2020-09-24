@@ -1,0 +1,13 @@
+module lab3 
+(
+		input [1:0] KEY,
+		output [9:0] LED,
+		output [47:0] HEX
+);
+genvar i;
+generate 
+		for ( i=0; i<9; i=i+2) 
+		begin: gen
+				assign LED[i]=~KEY[1];
+		end
+endgenerate 
