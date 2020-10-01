@@ -1,0 +1,39 @@
+|ex5
+clk => clk.IN1
+d => d.IN1
+q <= ex4:slave.q
+q_n <= ex4:slave.q_n
+
+
+|ex5|ex4:master
+clk => comb.IN0
+clk => comb.IN0
+d => comb.IN1
+d => comb.IN1
+q <= ex3:ex3.port2
+q_n <= ex3:ex3.port3
+
+
+|ex5|ex4:master|ex3:ex3
+s => q_n.IN0
+r => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+q_n <= q_n.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ex5|ex4:slave
+clk => comb.IN0
+clk => comb.IN0
+d => comb.IN1
+d => comb.IN1
+q <= ex3:ex3.port2
+q_n <= ex3:ex3.port3
+
+
+|ex5|ex4:slave|ex3:ex3
+s => q_n.IN0
+r => q.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+q_n <= q_n.DB_MAX_OUTPUT_PORT_TYPE
+
+
