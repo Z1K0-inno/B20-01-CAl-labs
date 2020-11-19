@@ -1,0 +1,164 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/B20-01, CA/B20-01-CAl-labs/week12/ex1/simulation/modelsim
+vadd
+Z1 !s110 1605798705
+!i10b 1
+!s100 D42Tz>QQ=<JiPOz1fjCQO0
+Ic8ol^DJ>A_NUUdH`GbH>V3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1605797377
+8D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/add.v
+FD:/B20-01, CA/B20-01-CAl-labs/week12/ex1/add.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1605798705.000000
+!s107 D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/B20-01, CA/B20-01-CAl-labs/week12/ex1|D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/add.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/B20-01, CA/B20-01-CAl-labs/week12/ex1}
+Z7 tCvgOpt 0
+vex1
+R1
+!i10b 1
+!s100 G_h?bS<@M8^17mUXiKkL43
+I0>?l_EH3PYWz3XR_<RfcA0
+R2
+R0
+w1605797624
+8D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/ex1.v
+FD:/B20-01, CA/B20-01-CAl-labs/week12/ex1/ex1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/ex1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/B20-01, CA/B20-01-CAl-labs/week12/ex1|D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/ex1.v|
+!i113 1
+R5
+R6
+R7
+vhard_block
+!s110 1605798704
+!i10b 1
+!s100 2>=6LoEINe;Pd5C[_YB=00
+I^fO5S<F]@Pfd1MbE]:@zF2
+R2
+R0
+w1605798697
+8ex1.vo
+Fex1.vo
+L0 7144
+R3
+r1
+!s85 0
+31
+!s108 1605798704.000000
+!s107 ex1.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|ex1.vo|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+.
+R7
+vmux
+R1
+!i10b 1
+!s100 ZI8RWXEPNb_XUBAYSO]4_3
+IBGNnjTc?1nSd]5@ncC0z83
+R2
+R0
+w1605797394
+8D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/mux.v
+FD:/B20-01, CA/B20-01-CAl-labs/week12/ex1/mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/B20-01, CA/B20-01-CAl-labs/week12/ex1|D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/mux.v|
+!i113 1
+R5
+R6
+R7
+vsrt
+R1
+!i10b 1
+!s100 >Pm^CQj^e>l<S7ADaS4ZO1
+IXdc`YUXZm88fnB^kN3X7D1
+R2
+R0
+w1605797407
+8D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/srt.v
+FD:/B20-01, CA/B20-01-CAl-labs/week12/ex1/srt.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/srt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/B20-01, CA/B20-01-CAl-labs/week12/ex1|D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/srt.v|
+!i113 1
+R5
+R6
+R7
+vsub
+R1
+!i10b 1
+!s100 hJ_3JdgaQ1kkW:@SX<Ui?3
+IodoL`<Q;>U9JhK19E_jJK1
+R2
+R0
+w1605797420
+8D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/sub.v
+FD:/B20-01, CA/B20-01-CAl-labs/week12/ex1/sub.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/sub.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/B20-01, CA/B20-01-CAl-labs/week12/ex1|D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/sub.v|
+!i113 1
+R5
+R6
+R7
+vtestbench
+R1
+!i10b 1
+!s100 XNXzHf0P8BAQScA2YTZY[3
+IK>:RF^TFXRgcXmmfZ>Ej]2
+R2
+R0
+w1605798640
+8D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/testbench.v
+FD:/B20-01, CA/B20-01-CAl-labs/week12/ex1/testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/B20-01, CA/B20-01-CAl-labs/week12/ex1|D:/B20-01, CA/B20-01-CAl-labs/week12/ex1/testbench.v|
+!i113 1
+R5
+R6
+R7
