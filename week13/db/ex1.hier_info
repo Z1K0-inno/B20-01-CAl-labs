@@ -1,0 +1,24 @@
+|ex1
+ALUOp[0] => Mux0.IN5
+ALUOp[0] => Mux1.IN5
+ALUOp[0] => Mux2.IN5
+ALUOp[0] => Mux3.IN5
+ALUOp[0] => Mux4.IN5
+ALUOp[0] => Mux5.IN5
+ALUOp[1] => Mux0.IN4
+ALUOp[1] => Mux1.IN4
+ALUOp[1] => Mux2.IN4
+ALUOp[1] => Mux3.IN4
+ALUOp[1] => Mux4.IN4
+ALUOp[1] => Mux5.IN4
+funct[0] => Decoder0.IN5
+funct[1] => Decoder0.IN4
+funct[2] => Decoder0.IN3
+funct[3] => Decoder0.IN2
+funct[4] => Decoder0.IN1
+funct[5] => Decoder0.IN0
+ALUControl[0] << ALUControl[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ALUControl[1] << ALUControl[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ALUControl[2] << ALUControl[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
